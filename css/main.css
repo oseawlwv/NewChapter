@@ -523,14 +523,14 @@ body {
 
 
 }
-.navbar div {
+/*.navbar div {
 	margin-left: -15px;
-}
+}*/
 
 /* Text color for navbar and dropdown menus */
 .navbar-custom .navbar-brand, .navbar-custom .navbar-text,
-.navbar-custom .navbar-nav .nav-link,
-.navbar-custom .dropdown-item {
+.navbar-custom .navbar-nav .nav-link/*,
+.navbar-custom .dropdown-item*/ {
     color: #B4CDED;
 }
 
@@ -633,4 +633,8 @@ body {
 	font-size: 4rem;
 }
 
+}
+.officers {
+}
+.committees {
 }
