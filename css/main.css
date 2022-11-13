@@ -464,6 +464,88 @@ body h1 {
 .vacation tr:nth-of-type(odd) {
 	background: #B4CDED;
 }
+.navbar.fixed-top.navbar-expand-lg {
+	position: static;
+	margin-bottom: -8px;
+}
+#hero {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+#hero h1 {
+	position: absolute;
+	top: 60%;
+	left: 1%;
+	color: #A40406;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 1rem;
+	font-style: italic;
+	text-shadow: 2px 1px #3E3E3E;
+}
+
+
+body {
+	padding-top: 40px;
+}
+.nav-item.dropdown .dropdown-menu .dropdown-item {
+
+}
+.nav-item.dropdown .dropdown-menu {
+	background-color: #B4CDED;
+}
+.nav-link {
+	margin-left: 1rem;
+	margin-right: auto;
+}
+
+.navbar-nav.mr-auto .nav-item .nav-link {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+/* Border and text colors for menu icon on small screens */
+.custom-toggler.navbar-toggler {
+    border-color: rgba(236,240,241,1.00);
+    color: #fff;
+}
+/* Hamburger icon - use same rgb values as previous rule for stroke */
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(236,240,241, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar.fixed-top.navbar-expand-lg.bg-dark .navbar-toggler .navbar-toggler-icon.custom-toggler {
+
+}
+.navbar.fixed-top.navbar-expand-lg {
+	background-color: #00005C;
+}
+ .dropdown-divider.navbar {
+	border-color: #660000;
+
+
+}
+.navbar div {
+	margin-left: -15px;
+}
+
+/* Text color for navbar and dropdown menus */
+.navbar-custom .navbar-brand, .navbar-custom .navbar-text,
+.navbar-custom .navbar-nav .nav-link,
+.navbar-custom .dropdown-item {
+    color: #B4CDED;
+}
+
+/* Background and text colors for current page link and links on hover and focus */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .dropdown-item:hover, 
+.navbar-custom .dropdown-item:focus {
+    background-color: rgba(102,0,0,0.63);
+    color: #B4CDED;
+}
+
+
+
 
 
 
@@ -480,4 +562,75 @@ body h1 {
 
 	
 	
+}
+
+#logo {
+	position: absolute;
+	max-width: 59%;
+	right: 0%;
+	font-size: medium;
+}
+.banner-lead {
+	font-size: 0.75rem;
+	background-color: #00005C;
+	margin-bottom: 0px;
+	color: #B4CDED;
+	white-space: nowrap;
+	font-style: italic;
+	padding-left: 16px;
+}
+
+
+@media (min-width:576px){
+	
+  .navbar-expand-lg {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .navbar-expand-lg .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  .navbar-expand-lg > .container,
+  .navbar-expand-lg > .container-fluid, .navbar-expand-lg > .container-sm, .navbar-expand-lg > .container-md, .navbar-expand-lg > .container-lg, .navbar-expand-lg > .container-xl {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+  }
+  .navbar-expand-lg .navbar-toggler {
+    display: none;
+  }
+#hero h1 {
+	font-size: 2rem;
+	top: 53%;
+}
+
+}
+
+@media (min-width:768px){
+#hero h1 {
+	font-size: 3rem;
+}
+
+}
+
+@media (min-width:992px){
+#hero h1 {
+	font-size: 4rem;
+}
+
 }
