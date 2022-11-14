@@ -468,8 +468,13 @@ body h1 {
 	position: static;
 	margin-bottom: -8px;
 }
+/*
+.nav-item {
+	-webkit-box-shadow: 0px 0px 0px;
+	box-shadow: 0px 0px 0px;
+}
+*/
 #hero {
-	padding-right: 0px;
 	padding-left: 0px;
 }
 #hero h1 {
@@ -487,20 +492,15 @@ body h1 {
 body {
 	padding-top: 40px;
 }
-.nav-item.dropdown .dropdown-menu .dropdown-item {
-
-}
 .nav-item.dropdown .dropdown-menu {
 	background-color: #B4CDED;
 }
-.nav-link {
-	margin-left: 1rem;
-	margin-right: auto;
-}
+
 
 .navbar-nav.mr-auto .nav-item .nav-link {
-	padding-right: 0px;
-	padding-left: 0px;
+	padding-right: 8px;
+	padding-left: 8px;
+	margin-bottom: px;
 }
 
 /* Border and text colors for menu icon on small screens */
@@ -512,9 +512,7 @@ body {
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(236,240,241, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
-.navbar.fixed-top.navbar-expand-lg.bg-dark .navbar-toggler .navbar-toggler-icon.custom-toggler {
 
-}
 .navbar.fixed-top.navbar-expand-lg {
 	background-color: #00005C;
 }
@@ -543,10 +541,9 @@ body {
     background-color: rgba(102,0,0,0.63);
     color: #B4CDED;
 }
-
-
-
-
+#officers h5 {
+	white-space: nowrap;
+}
 
 
 
@@ -570,6 +567,10 @@ body {
 	right: 0%;
 	font-size: medium;
 }
+#officers {
+	padding-left: 0px;
+}
+
 .banner-lead {
 	font-size: 0.75rem;
 	background-color: #00005C;
@@ -633,8 +634,4 @@ body {
 	font-size: 4rem;
 }
 
-}
-.officers {
-}
-.committees {
 }
