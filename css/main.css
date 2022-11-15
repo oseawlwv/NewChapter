@@ -22,8 +22,13 @@ html {
  */
 
 body {
-  margin: 0;
+
 }
+.articles  h6 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
 
 /**
  * Render the `main` element consistently in IE.
@@ -394,15 +399,15 @@ body h1 {
 	padding-right: 5px;
 }
 .articles h3 {
-	text-align: center;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #660000ff;
-	margin-top: 47px;
-	background-color: #A7C6DA;
-	padding-bottom: 15px;
-	padding-top: 15px;
-	/* [disabled]bottom: 16px; */
-	margin-bottom: -26px;
+    text-align: center;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #660000ff;
+    margin-top: 47px;
+    background-color: #A7C6DA;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    /* [disabled]bottom: 16px; */
+    margin-bottom: 0px;
 }
 .articles h4 {
 	color: #A7C6DA;
@@ -489,9 +494,6 @@ body h1 {
 }
 
 
-body {
-	padding-top: 40px;
-}
 .nav-item.dropdown .dropdown-menu {
 	background-color: #B4CDED;
 }
@@ -544,7 +546,6 @@ body {
 #officers h5 {
 	white-space: nowrap;
 }
-
 
 
 
