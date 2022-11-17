@@ -431,6 +431,12 @@ body h1 {
 	padding-right: 3px;
 	margin-bottom: 12px;
 }
+.holidays div {
+	width: 480px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 0px;
+}
 
 .articles ol > li::marker {
 	font-weight: 900;
@@ -439,23 +445,28 @@ body h1 {
  .holidays p {
 	text-align: center;
 	padding-top: 0px;
-	margin-bottom: -2px;
+	margin-bottom: -10px;
 	font-size: large;
 	text-shadow: 0px 0px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 }
 .holidays ul {
 	border-width: 50%;
 	width: 150px;
 	list-style-type: none;
 	display: inline-block;
+	padding-top: 0px;
 }
 .holidays ul li {
 	text-align: center;
 	font-style: italic;
 }
-.holidays div {
-	width: 300px;
+.holidays li {
+	margin-top: 0.7rem;
 }
+.articles {
+}
+
 .vacation tr td {
 	text-align: center;
 }
@@ -506,6 +517,8 @@ body h1 {
 	margin-bottom: px;
 }
 
+
+
 /* Border and text colors for menu icon on small screens */
 .custom-toggler.navbar-toggler {
     border-color: rgba(236,240,241,1.00);
@@ -545,25 +558,32 @@ body h1 {
 #officers h5 {
 	white-space: nowrap;
 }
-.top  {
-	text-align: center;
-	width: 117px;
-	height: 35px;
-	min-height: 0px;
-	padding-top: auto;
-	padding-bottom: auto;
-	border-style: solid;
-	border-width: 1pt;
-	margin-left: auto;
-	position: sticky;
-	top: 20px;
 
-
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: rgba(73,132,103,0.69);
+	color: rgba(0,0,92,1.00);
+	cursor: pointer;
+	padding: 5px 20px;
+	border-radius: 4px;
+	text-shadow: 1px 1px rgba(180,205,237,1.00);
+	font-weight: 600;
 }
 
+#myBtn:hover {
+  background-color: #660000;
 
 
-}
+
+
+
 
 
 
