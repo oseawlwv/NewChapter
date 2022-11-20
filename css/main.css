@@ -23,6 +23,7 @@ html {
 
 body {
 	padding-top: 56px;
+	min-width: 397px;
 }
 .articles  h6 {
     text-align: center;
@@ -44,8 +45,9 @@ main {
  */
 
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+	font-size: 2em;
+	margin: 0.67em 0;
+	padding-left: 6px;
 }
 
 /* Grouping content
@@ -415,9 +417,17 @@ body h1 {
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
-.articles .jobclass ul {
-	margin-bottom: 10px;
-	list-style: none
+ .jobclass ul {
+	margin-bottom: 18px;
+	list-style: circle;
+}
+ul.jobclass li {
+	margin-bottom: 5px;
+	
+}
+
+ul.jobclass {
+	list-style: none;
 }
 .articles dl {
 	padding-left: 5px;
@@ -459,6 +469,8 @@ body h1 {
 
 .holidays ul {
 	list-style: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 .holidays ul li {
 	text-align: center;
@@ -584,6 +596,35 @@ body h1 {
   background-color: #660000;
 
 }
+.art-heading {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: rgba(102,0,0,1.00);
+}
+.vacation tr th {
+	text-align: center;
+}
+.vacation caption {
+	/* [disabled]padding-left: 8px; */
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.art-sub-head {
+	font-weight: bold;
+}
+.break tr th {
+	text-align: center;
+}
+.break {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
 
 
 
@@ -609,6 +650,13 @@ body h1 {
 	right: 0%;
 	font-size: medium;
 }
+#title {
+	font-size: 1.4rem;
+	padding-top: 8px;
+	font-weight: bold;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
 #officers {
 	padding-left: 0px;
 }
@@ -686,6 +734,10 @@ body h1 {
 		.navbar-brand #osea {
 	display:none;
 }
-
+	.banner-lead {
+		display: none;
+	}
 	
+}
+#title {
 }
